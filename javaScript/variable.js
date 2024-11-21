@@ -50,7 +50,7 @@ console.log(typeof isComplete)
 let total = 10 + 5 + "10"
 console.log(total) // somme(10+5 concatené avec 10)
     //Ex:14
-let bigNumber = 2 n ** 53 n
+let bigNumber = 2 n //2 n ** 53 n
 console.log(bigNumber)
 console.log(typeof bigNumber)
     //Ex:15
@@ -63,15 +63,16 @@ numbers.push(4)
 console.log(numbers)
     //Ex:17
 let book = {
-        title: "text",
-        author: 23,
-        page: ,
-        ..
+    title: "text",
+    author: 23,
+    page: 3
+}
 
-        //Ex:18
+//Ex:18
 
-        //Ex:19
-        let boolString = Boolean("false")
-        console.log(boolString) //dans Boolean("false") y a la chaine de 
+//Ex:19
+let boolString = Boolean("false")
+console.log(boolString)
+    /*dans Boolean("false") y a la chaine de 
         caractère false donc il est remplit donc true c 'est a dire il y a
-        quelque chose dans boolString pruisque en parle de la fct Boolean()
+        quelque chose dans boolString pruisque en parle de la fct Boolean()*/

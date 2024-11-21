@@ -4,8 +4,8 @@ if (number > 0) {
     console.log("Positive")
 }
 //2
-let num = 32
-if (num % 2 == 0) {
+let Num = 32
+if (Num % 2 == 0) {
     console.log("Pair")
 } else {
     console.log("Impair")
@@ -90,8 +90,8 @@ switch (light) {
         break;
 }
 //9
-let year = 360
-year = 366 ? console.log("année bissextile") : console.log("year")
+let Year = 360
+Year = 366 ? console.log("année bissextile") : console.log("year")
     //9
 let year = 2024
 if (year % 4 == 0 && year % 100 !== 0 || year % 400 == 0) {
@@ -100,8 +100,8 @@ if (year % 4 == 0 && year % 100 !== 0 || year % 400 == 0) {
     console.log("année n'est pas bissextile");
 }
 //10
-let age = 32
-if (age >= 18) {
+let Age = 32
+if (Age >= 18) {
     console.log("Peut conduire");
 } else {
     console.log("Ne peut pas conduire")
