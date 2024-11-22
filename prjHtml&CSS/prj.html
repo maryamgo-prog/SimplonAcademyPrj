@@ -4,32 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Front-End</title>
-    <!-- <link rel="stylesheet" href="prj.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="prj.css">
 </head>
 
 <body>
-    <h1>Introduction au Front-End</h1>
-    <p>Le développement <b>front-end</b> fait référence à la partie visible d'un site web ou d'une application, avec laquelle les utilisateurs interagissent directement. Il inclut l'utilisation de langages tels que <b>HTML</b>, <b>CSS</b> et <b>JavaScript</b>,
-        pour structurer, styliser, et rendre dynamique les pages web. Mon objectif est de créer des interfaces utilisateur intuitives et réactives, adaptées à tous les appareils.</p>
-    <video controls>
-        <source src="video.mp4">
-    </video>
-    <p>L'une des clés du développement front-end est de concevoir des interfaces utilisateurs efficaces. Cela inclut l'optimisation de l'expérience utilisateur <b>UX</b> et l'esthétique de l'interface <b>UI</b>. L'UX se concentre sur la facilité d'utilisation
-        et la navigation, tandis que l'UI se concentre sur l'apparence visuelle et le design. Ensemble, ces éléments créent des produits numériques qui sont non seulement agréables à utiliser, mais aussi intuitifs et fonctionnels.</p>
-    <img src="image.PNG">
-    <form>
-        <label>Nom: <input type="text" name="nom"></label><br>
-        <label>Prénom: <input type="text" name="prenom"></label><br>
-        <label>Email: <input type="email" name="email"></label><br>
-        <label>Genre: 
+    <nav>
+        <h1>.Web</h1>
+        <ul>
+            <li>Aceuil</li>
+            <li>Menu</li>
+            <li>Categorie</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h1>Introduction au Front-End</h1>
+            <div>
+                <p>Le développement <span>front-end</span> fait référence à la partie visible d'un site web ou d'une application, avec laquelle les utilisateurs interagissent directement. Il inclut l'utilisation de langages tels que <b>HTML</b>, <b>CSS</b>                    et <b>JavaScript</b>, pour structurer, styliser, et rendre dynamique les pages web. Mon objectif est de créer des interfaces utilisateur intuitives et réactives, adaptées à tous les appareils.</p>
+                <img src="image.PNG">
+            </div>
+            <div>
+                <p>L'une des clés du développement front-end est de concevoir des interfaces utilisateurs efficaces. Cela inclut l'optimisation de l'expérience utilisateur <b>UX</b> et l'esthétique de l'interface <b>UI</b>. L'UX se concentre sur la facilité
+                    d'utilisation et la navigation, tandis que l'UI se concentre sur l'apparence visuelle et le design. Ensemble, ces éléments créent des produits numériques qui sont non seulement agréables à utiliser, mais aussi intuitifs et fonctionnels.</p>
+                <video controls>
+                <source src="video.mp4">
+                </video>
+            </div>
+        </div>
+        <form>
+            <label>Nom: <input type="text" name="nom"></label>
+            <label>Prénom: <input type="text" name="prenom"></label>
+            <label>Email: <input type="email" name="email"></label>
+            <label>Genre: 
             <select name="genre">
                 <option value="homme">Homme</option>
                 <option value="femme">Femme</option>
             </select>
-        </label><br>
-        <label>Numéro: <input type="tel" name="numero"></label><br>
-        <button type="submit">Envoyer</button>
-    </form>
+            </label><br>
+            <label>Numéro: <input type="tel" name="numero"></label>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
 </body>
 
 </html>
